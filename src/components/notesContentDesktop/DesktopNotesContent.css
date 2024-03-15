@@ -1,0 +1,43 @@
+.desktop__notes__content__note {
+  display: flex;
+  justify-content: space-between;
+  gap: 1vw;
+  align-items: center;
+  min-height: 15vh;
+  height: 210px;
+  width: 997px;
+  background-color: #ffffff;
+  margin: 30px;
+  border-radius: 5px;
+}
+
+.desktop__notes__content__date__time__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  min-height: 15vh;
+  width: 15vw;
+  background-color: #ffffff;
+  margin-left: 550px;
+}
+
+.desktop__notes__content__date {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1vh;
+}
+
+.desktop__notes__content__time {
+  margin: 0 1vh 0 1vh;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.desktop__notes__content__details {
+  min-height: 15vh;
+  height: auto;
+  width: 50vw;
+  text-align: left;
+  margin: 5vh 2vh 0 0;
+}

@@ -1,0 +1,64 @@
+.desktop__sidebar {
+  width: 24vw;
+  height: 100vh;
+  /* background-color: yellow; */
+}
+
+.desktop__sidebar__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 1rem;
+  text-align: center;
+  /* position: absolute; */
+}
+
+.desktop__sidebar__create__notes__btn {
+  height: 11vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute;
+  right: 0;
+  left: 0; */
+}
+
+.desktop__popup__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.desktop__sidebar__create__notes__btn > button {
+  width: 14%;
+  height: 7vh;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  background-color: #16008b;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1rem;
+  margin-left: 180px;
+}
+
+#add {
+  font-size: 30px;
+}
+
+.desktop__sidebar__notes__title {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 79vh;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}

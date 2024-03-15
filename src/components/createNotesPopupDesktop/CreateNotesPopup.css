@@ -1,0 +1,126 @@
+.popup {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 20px;
+}
+
+.popup__title {
+  text-align: left;
+  height: 2rem;
+  width: 23rem;
+  font-size: 3.2vh;
+  font-weight: 500;
+  margin: 0 25vh 2vh 1vh;
+}
+
+.popup__input {
+  height: 2rem;
+  width: 23rem;
+  font-size: 2vh;
+  font-weight: 500;
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+
+  margin: 1vh 25vh 1vh 1vh;
+}
+
+.popup__input > input {
+  width: 30vw;
+  height: 3vh;
+  border: 2px solid grey;
+  border-radius: 6vh;
+  padding: 0.5rem;
+  font-size: 2vh;
+
+  font-weight: 500;
+}
+
+.popup__color__input {
+  font-size: 3vh;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  align-items: center;
+  margin: 2vh 25vh 1vh 1vh;
+}
+
+.popup__color__input__color {
+  display: flex;
+  gap: 1vw;
+}
+
+.popup__color__input__color__1,
+.popup__color__input__color__2,
+.popup__color__input__color__3,
+.popup__color__input__color__4,
+.popup__color__input__color__5,
+.popup__color__input__color__6 {
+  width: 3vh;
+  height: 3vh;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+}
+
+.popup__color__input__color__1 {
+  background-color: #b38bfa;
+}
+
+.popup__color__input__color__2 {
+  background-color: #ff79f2;
+}
+
+.popup__color__input__color__3 {
+  background-color: #43e6fc;
+}
+
+.popup__color__input__color__4 {
+  background-color: #f19576;
+}
+
+.popup__color__input__color__5 {
+  background-color: #0047ff;
+}
+
+.popup__color__input__color__6 {
+  background-color: #6691ff;
+}
+
+.popup__close {
+  height: 2rem;
+  width: 23rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1vh 1vh 1vh 1vh;
+}
+
+.popup__close > button {
+  
+  height: 38px;
+  width: 154px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 11px;
+  background-color: #001F8B;
+  margin-right: -110px;
+}
+
+.highlight {
+  border: 2px solid black;
+  border-radius: 6vh;
+}

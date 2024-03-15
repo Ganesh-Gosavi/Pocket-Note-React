@@ -1,0 +1,83 @@
+.desktop__notes {
+  width: 76vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desktop__notes__title {
+  height: 13vh;
+  width: 76vw;
+  background-color: #001F8B;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 5vh;
+  color: white;
+}
+
+.desktop__notes__title__color {
+  height: 9vh;
+  width: 9vh;
+  border-radius: 50%;
+  margin: 1vh 0 0 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4vh;
+}
+
+.desktop__notes__title__text{
+    margin-left: 4vh;
+}
+
+.desktop__notes__content {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 57vh;
+  max-height: 58vh;
+  width: 76vw;
+  background-color: #DAE5F5;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.desktop__notes__content__title {
+  height: 20vh;
+  width: 76vw;
+}
+
+.desktop__notes__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 76vw;
+  background-color: #001F8B;
+  position: fixed;
+  bottom: 0;
+}
+
+.desktop__notes__input > textarea {
+  border: none;
+  outline: none;
+  border-radius: 1vh;
+  font-size: large;
+  padding: 1vh;
+  height: 25vh;
+  width: 72vw;
+  resize: none;
+}
+
+.desktop__notes__input img {
+  position: absolute;
+  bottom: 4vh;
+  right: 6vh;
+  width: 20px;
+  height: 20px;
+}

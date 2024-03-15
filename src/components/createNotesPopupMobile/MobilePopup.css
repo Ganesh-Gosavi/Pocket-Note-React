@@ -1,0 +1,135 @@
+.mobile__popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 284px;
+  height: 211px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+  z-index: 9999;
+  
+}
+
+.mobile__popup__title {
+  text-align: left;
+  
+  width: 82vw;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 5vw;
+}
+
+.mobile__popup__input {
+  height: 8vh;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  align-items: center;
+  margin: 1vh 3vh 1vh 1vh;
+}
+
+.mobile__popup__input > input {
+  width: 150px;
+  height: 23px;
+  border: 0.88px solid grey;
+  border-radius: 9px;
+  padding: 0.5rem;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.mobile__popup__color__input {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  align-items: center;
+  /* margin: 1vh 3vh 1vh 1vh; */
+}
+
+.mobile__popup__color__input > span {
+  font-size: 14.6px;
+  font-weight: 500;
+}
+
+.mobile__popup__color__input__color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.mobile__popup__color__input__color__1,
+.mobile__popup__color__input__color__2,
+.mobile__popup__color__input__color__3,
+.mobile__popup__color__input__color__4,
+.mobile__popup__color__input__color__5,
+.mobile__popup__color__input__color__6 {
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+}
+
+.mobile__popup__color__input__color__1 {
+  background-color: #b38bfa;
+}
+
+.mobile__popup__color__input__color__2 {
+  background-color: #ff79f2;
+}
+
+.mobile__popup__color__input__color__3 {
+  background-color: #43e6fc;
+}
+
+.mobile__popup__color__input__color__4 {
+  background-color: #f19576;
+}
+
+.mobile__popup__color__input__color__5 {
+  background-color: #0047ff;
+}
+
+.mobile__popup__color__input__color__6 {
+  background-color: #6691ff;
+}
+
+.mobile__popup__close {
+  height: 5vh;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  /* margin: 1vh 1vh 1vh 1vh; */
+}
+
+
+.mobile__popup__close > button {
+  margin-top: 1rem;
+  height: 32px;
+
+  width: 186px;
+  color: white;
+  font-weight: 400;
+  border: none;
+  border-radius: 6px;
+  background-color: #16008b;
+  /* margin-right: 55px; */
+}
+
+.highlight {
+  border: 2px solid black;
+  border-radius: 6vh;
+}

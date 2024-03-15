@@ -1,0 +1,39 @@
+.mobile__notes__content__body {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  height: auto;
+  width: 99vw;
+  margin: 1vh 0 1vh 0;
+}
+
+.mobile__notes__content__date__time__details {
+
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 10vh;
+  margin-left: 130px;
+  /* background-color: #DCE7F7; */
+}
+
+.mobile__notes__content__date,
+.mobile__notes__content__time {
+  font-size: 2vh;
+  font-weight: 600;
+  margin-left: 2vh;
+}
+
+.mobile__notes__content__details {
+  min-height: 10vh;
+  height: auto;
+  text-align: left;
+  margin: 1vw 1vw 1vw 1vw;
+  background-color: white;
+  margin-left: 15px;
+  border-radius: 5px;
+}
